@@ -1,16 +1,21 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#102b3f">
-    <meta name="description" content="Katozi Logistics connects air, sea and road freight with practical logistics support for your business.">
+    <meta name="description"
+        content="Katozi Logistics connects air, sea and road freight with practical logistics support for your business.">
     <title>Contact | Katozi Logistics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="katozistyles.css">
 </head>
+
 <body>
-<div class="topbar">
+    <div class="topbar">
         <div class="container topbar-inner">
             <div class="topbar-note">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
@@ -42,69 +47,88 @@
                 <a href="our%20approach.html#approach">Our approach</a>
                 <a href="contact.html#contact">Contact</a>
             </nav>
-            <a class="button btn nav-cta" href="contact.html#contact">Request a quote <span aria-hidden="true">↗</span></a>
-            
+
         </div>
     </header>
-<main>
-<section class="contact" id="contact">
+    <main>
+        <section class="contact" id="contact">
             <div class="container contact-page-layout">
                 <div class="contact-page-intro">
                     <span class="eyebrow">Start a conversation</span>
                     <h1 class="section-heading">Let’s plan your next shipment.</h1>
-                    <p>Share a few details about your cargo and destination. The more you tell us, the better we can understand the support you need.</p>
+                    <p>Share a few details about your cargo and destination. The more you tell us, the better we can
+                        understand the support you need.</p>
+                    <div class="ceo-spotlight">
+                        <img class="ceo-image" src="CEO.jpeg" alt="CEO of Katozi Logistics" loading="lazy">
+                        <div class="ceo-meta">
+                            <strong>Mr Mugabi Wilson Katozi</strong>
+                            <span>Chief Executive Officer</span>
+                        </div>
+                    </div>
                     <p class="contact-form-note">Fields marked with <span aria-hidden="true">*</span> are required.</p>
                 </div>
                 <div class="contact-form-card">
                     <form id="contact-form" method="post">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label class="form-label" for="contact-name">Full name <span aria-hidden="true">*</span></label>
-                                    <input class="form-control" id="contact-name" name="name" autocomplete="name" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label" for="contact-email">Email address <span aria-hidden="true">*</span></label>
-                                    <input class="form-control" id="contact-email" name="email" type="email" autocomplete="email" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label" for="contact-phone">Phone number</label>
-                                    <input class="form-control" id="contact-phone" name="phone" type="tel" autocomplete="tel">
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label" for="contact-service">Service required <span aria-hidden="true">*</span></label>
-                                    <select class="form-select" id="contact-service" name="service" required>
-                                        <option value="">Select a service</option>
-                                        <option>Air freight</option>
-                                        <option>Sea freight</option>
-                                        <option>Road transport</option>
-                                        <option>Cargo and warehousing</option>
-                                        <option>Not sure yet</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label" for="contact-origin">Where is the cargo coming from? <span aria-hidden="true">*</span></label>
-                                    <input class="form-control" id="contact-origin" name="origin" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label" for="contact-destination">Where should it go? <span aria-hidden="true">*</span></label>
-                                    <input class="form-control" id="contact-destination" name="destination" required>
-                                </div>
-                                <div class="col-12">
-                                    <label class="form-label" for="contact-message">Cargo details and any other questions <span aria-hidden="true">*</span></label>
-                                    <textarea class="form-control" id="contact-message" name="message" rows="5" placeholder="What are you shipping, how much, and when do you need it moved?" required></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="button btn button-dark" type="submit">Send shipment enquiry <span aria-hidden="true">↗</span></button>
-                                    <p class="contact-form-note">This demo form does not send or store your information yet.</p>
-                                    
-                                </div>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label" for="contact-name">Full name <span
+                                        aria-hidden="true">*</span></label>
+                                <input class="form-control" id="contact-name" name="name" autocomplete="name" required>
                             </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="contact-email">Email address <span
+                                        aria-hidden="true">*</span></label>
+                                <input class="form-control" id="contact-email" name="email" type="email"
+                                    autocomplete="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="contact-phone">Phone number</label>
+                                <input class="form-control" id="contact-phone" name="phone" type="tel"
+                                    autocomplete="tel">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="contact-service">Service required <span
+                                        aria-hidden="true">*</span></label>
+                                <select class="form-select" id="contact-service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option>Air freight</option>
+                                    <option>Sea freight</option>
+                                    <option>Road transport</option>
+                                    <option>Cargo and warehousing</option>
+                                    <option>Not sure yet</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="contact-origin">Where is the cargo coming from? <span
+                                        aria-hidden="true">*</span></label>
+                                <input class="form-control" id="contact-origin" name="origin" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="contact-destination">Where should it go? <span
+                                        aria-hidden="true">*</span></label>
+                                <input class="form-control" id="contact-destination" name="destination" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="contact-message">Cargo details and any other questions
+                                    <span aria-hidden="true">*</span></label>
+                                <textarea class="form-control" id="contact-message" name="message" rows="5"
+                                    placeholder="What are you shipping, how much, and when do you need it moved?"
+                                    required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="button btn button-dark" type="submit">Send shipment enquiry <span
+                                        aria-hidden="true">↗</span></button>
+                                <p class="contact-form-note">This demo form does not send or store your information yet.
+                                </p>
+
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </section>
-</main>
-<footer class="footer">
+    </main>
+    <footer class="footer">
         <div class="container">
             <div class="footer-top">
                 <div>
@@ -130,8 +154,7 @@
                             aria-label="Katozi Logistics on WhatsApp">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
                                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                <path
-                                    d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L3 20l1.2-4.9a8.2 8.2 0 1 1 16-3.4Z" />
+                                <path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L3 20l1.2-4.9a8.2 8.2 0 1 1 16-3.4Z" />
                                 <path
                                     d="M8.2 8.1c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4 0 .6l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.4 1.7 1.8.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.5.7c.2.1.3.3.3.5 0 .5-.3 1.1-.7 1.4-.4.4-1 .6-1.5.5-1.2-.2-2.5-.9-3.6-1.9-1.1-1-2-2.4-2.3-3.7-.2-.6.1-1.2.4-1.6l.3-.1Z" />
                             </svg>
@@ -160,7 +183,13 @@
                     <a href="our%20approach.html#approach">Our approach</a>
                     <a href="contact.html#contact">Request a quote</a>
                 </nav>
-            </div>
+            <div class="footer-contact">
+                    <h2>Contact</h2>
+                    <a href="tel:+256771828103">TEL: +256 771 828103</a>
+                    <a href="tel:+256744911327">TEL: +256 744 911327</a>
+                    <a href="mailto:katozilogistics@gmail.com">Email: katozilogistics@gmail.com</a>
+                </div>
+</div>
             <div class="footer-bottom">
                 <span>© 2026 Katozi Logistics. All rights reserved.</span>
                 <span>Moving business forward.</span>
@@ -168,7 +197,11 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 
 </body>
+
 </html>
